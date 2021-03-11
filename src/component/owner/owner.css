@@ -1,0 +1,51 @@
+.owner {
+  margin: 50px 0px;
+}
+.owner__title {
+  text-align: center;
+  width: 500px;
+  margin: 0px auto;
+  font-size: 15px;
+  font-weight: 400;
+
+  /* font-family: "Gothic A1", sans-serif; */
+}
+.owner__list {
+  display: flex;
+  margin-top: 50px;
+  padding: 0px 30px;
+  justify-content: space-evenly;
+}
+.owner__card {
+  width: 25%;
+  display: flex;
+  padding: 20px;
+  border-radius: 8px;
+  flex-direction: column;
+  box-shadow: 0px 4px 6px -4px #000;
+}
+.owner__card img {
+  height: 100px;
+  width: 100px;
+  margin: 0px auto;
+
+  object-fit: contain;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.owner__card h4 {
+  color: var(--bg-color);
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+}
+.owner__card p {
+  color: #000;
+  padding-bottom: 20px;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}

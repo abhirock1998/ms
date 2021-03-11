@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap");
+
+.stats {
+  display: flex;
+  padding: 0px 30px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.stats h2 {
+  color: var(--bg-color);
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 56px;
+}
+.stats p {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: #393939;
+}

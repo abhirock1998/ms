@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap");
+.jumboCard {
+  display: flex;
+  /* height: 220px; */
+  width: 75%;
+  margin: 0px auto;
+  /* flex: 1; */
+
+  margin-bottom: 40px;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+}
+.jumboCard img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  max-width: 300px;
+}
+.jumbocard__content {
+  /* margin-left: 30px; */
+  flex: 0.7;
+  padding: 20px 10px;
+}
+.jumboCard table {
+  width: 100%;
+}
+.jumboCard td {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #484848;
+  line-height: 150%;
+}
+
+.jumboCard td img {
+  height: 10px;
+  width: 20px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+.jumbocard__content h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  font-family: "Gothic A1", sans-serif;
+  color: #2e70f0;
+}

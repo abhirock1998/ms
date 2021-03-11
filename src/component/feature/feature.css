@@ -1,0 +1,48 @@
+.feature {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Gothic A1", sans-serif;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 55vw;
+  padding: 60px 30px;
+  margin: 30px 0px;
+}
+.feature__content {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.feature__content h1 {
+  font-size: 50px;
+  font-weight: 600;
+
+  display: flex;
+}
+.feature__content p {
+  font-size: 16px;
+}
+.feature__bullet {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.feature__bulletCard {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}
+.feature__bulletCard img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.feature__bulletCard h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.feature__bulletCard p {
+  font-size: smaller;
+  line-height: 120%;
+}

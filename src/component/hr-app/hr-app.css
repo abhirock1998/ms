@@ -1,0 +1,40 @@
+.hrApp {
+  margin: 50px 0px;
+}
+.hrApp__heading {
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hrApp__heading h3 {
+  font-size: 40px;
+  font-family: "Gothic A1", sans-serif;
+}
+.hrApp__heading p {
+  color: #393939;
+  font-family: "Gothic A1", sans-serif;
+}
+.hrApp img {
+  height: 700px;
+
+  width: 100%;
+  object-fit: cover;
+}
+.hrApp__download {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+.hrApp__download h4 {
+  font-size: 20px;
+  font-family: "Gothic A1", sans-serif;
+}
+.hrApp__download button {
+  color: var(--bg-color);
+  font-family: "Gothic A1", sans-serif;
+  background-color: var(--text-color);
+}
