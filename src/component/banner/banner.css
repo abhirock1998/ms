@@ -23,3 +23,7 @@
   text-transform: inherit;
   box-shadow: 0px 4px 4px -4px #000;
 }
+.banner__content button:hover {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

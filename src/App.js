@@ -1,5 +1,5 @@
 import './App.css';
-import { Banner,HrApp,Owner,Feature,Poster,Heading,JumboSection,StatsDispaly } from './component';
+import { Banner,Footer,ContactUs,FeatureBlog,Testimonial,HrApp,Owner,Feature,Poster,Heading,JumboSection,StatsDispaly } from './component';
 
 function App() {
   return (
@@ -12,6 +12,10 @@ function App() {
    <Feature/>
    <HrApp/>
    <Owner/>
+   <Testimonial/>
+   <FeatureBlog/>
+   <ContactUs/>
+   <Footer/>
     </div>
   );
 }

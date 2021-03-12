@@ -11,7 +11,7 @@ function HRApp() {
             <img src="/images/hr-app.png" alt="hr-app"/>
        <div className="hrApp__download">
            <h4>Learn how we at Megasoft can help you empower your business </h4>
- <Button variant="outlined"  >Download Now</Button>
+ <Button variant="outlined"  >Download Now !</Button>
     </div>
        
        

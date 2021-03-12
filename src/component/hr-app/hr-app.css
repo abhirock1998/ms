@@ -9,6 +9,7 @@
 }
 .hrApp__heading h3 {
   font-size: 40px;
+  margin-bottom: 10px;
   font-family: "Gothic A1", sans-serif;
 }
 .hrApp__heading p {
@@ -31,10 +32,16 @@
 }
 .hrApp__download h4 {
   font-size: 20px;
-  font-family: "Gothic A1", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 300;
+  /* font-family: "Gothic A1", sans-serif; */
 }
 .hrApp__download button {
   color: var(--bg-color);
   font-family: "Gothic A1", sans-serif;
   background-color: var(--text-color);
+}
+.hrApp__download button:hover {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }

@@ -32,3 +32,7 @@
   color: var(--text-color);
   text-transform: inherit;
 }
+.header__user button:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}

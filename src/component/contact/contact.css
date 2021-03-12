@@ -1,0 +1,105 @@
+.contact {
+  background-color: var(--bg-color);
+  padding: 30px;
+}
+.contact__topper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+
+  color: var(--text-color);
+  width: 650px;
+  text-align: center;
+}
+.contact__topper h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Gothic A1", sans-serif;
+}
+.contact__topper p {
+  text-align: center;
+}
+.contact__split {
+  display: flex;
+  margin-top: 40px;
+
+  justify-content: flex-end;
+}
+.contact__form {
+  width: 50%;
+}
+.contact__formRow {
+  display: flex;
+  justify-content: space-between;
+}
+.contact__formInput {
+  width: 45%;
+  color: var(--text-color);
+  /* padding-right: 10px; */
+  margin-bottom: 20px;
+}
+.contact__formInput input {
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+}
+
+.contact__formInputHalf {
+  display: flex;
+  width: 50%;
+  color: var(--text-color);
+  justify-content: space-between;
+}
+.contact__formInputHalf .contact__formInputSmall input {
+  padding: 10px;
+  width: 85%;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+}
+.contact__formInputHalf.customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact__formInputHalf.customer p {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.contact__formInputHalf.customer .contact__formInputSmall.radio input {
+  width: auto;
+  outline: none;
+  border: none;
+}
+.contact__forminputSmallRadio {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  justify-content: space-between;
+}
+.contact__form textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+}
+.contact__form label {
+  color: var(--text-color);
+}
+.contact__form button {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  text-transform: inherit;
+  margin-top: 20px;
+  width: 100px;
+  font-family: "Gothic A1", sans-serif;
+}
+.contact__form button:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}
