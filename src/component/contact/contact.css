@@ -49,6 +49,8 @@
 .contact__formInputHalf {
   display: flex;
   width: 50%;
+  max-width: 280px;
+  padding-right: 10px;
   color: var(--text-color);
   justify-content: space-between;
 }
@@ -94,6 +96,8 @@
 .contact__form button {
   background-color: var(--text-color);
   color: var(--bg-color);
+  border-radius: 0px;
+  border: none;
   text-transform: inherit;
   margin-top: 20px;
   width: 100px;

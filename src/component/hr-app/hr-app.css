@@ -38,6 +38,8 @@
 }
 .hrApp__download button {
   color: var(--bg-color);
+  border-radius: 0px;
+  border: none;
   font-family: "Gothic A1", sans-serif;
   background-color: var(--text-color);
 }

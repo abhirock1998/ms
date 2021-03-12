@@ -20,6 +20,7 @@
 }
 .feature__content p {
   font-size: 16px;
+  font-weight: 400;
 }
 .feature__bullet {
   display: flex;
@@ -40,9 +41,11 @@
 }
 .feature__bulletCard h3 {
   font-size: 15px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 .feature__bulletCard p {
   font-size: smaller;
   line-height: 120%;
+  font-weight: 400;
 }

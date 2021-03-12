@@ -30,6 +30,8 @@
   background-color: var(--bg-color);
   /* border-radius: 0px; */
   color: var(--text-color);
+  border-radius: 0px;
+  border: none;
   text-transform: inherit;
 }
 .header__user button:hover {
